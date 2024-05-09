@@ -34,4 +34,3 @@ print("Sorted array is:", arr)
 
 **Use Case**: Bubble sort is suitable for small data sets or nearly sorted arrays. However, it's not efficient for large datasets due to its quadratic time complexity.
 
-Feel free to ask about anything else or any other algorithm!
