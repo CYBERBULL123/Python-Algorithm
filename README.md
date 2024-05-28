@@ -1,5 +1,7 @@
 ### 🌟 Algorithm Categories in Python 🐍
 
+All Python Algorithm 
+
 **1. Sorting Algorithms:**
    - Parts:
    
