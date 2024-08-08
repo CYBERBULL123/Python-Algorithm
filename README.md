@@ -1,6 +1,12 @@
+## 👁️MAANG 
+[Topic](https://github.com/CYBERBULL123/Python-Algorithm/blob/main/FAANG%20/Topic.md)
+
+[3 Month Plan](https://github.com/CYBERBULL123/Python-Algorithm/blob/main/FAANG%20/3%20Month%20Plan.md)
+
 ### 🌟 Algorithm Categories in Python 🐍
 
 All Python Algorithm 
+
 
 **1. Sorting Algorithms:**
    - Parts:
