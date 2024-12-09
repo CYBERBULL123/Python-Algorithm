@@ -160,26 +160,4 @@ To crack MAANG (Meta, Apple, Amazon, Netflix, Google) interviews, you'll need to
 2. **Communication Skills**
 3. **Team Collaboration**
 
-
-### Additional Development Skills:
-1. **Programming Languages**
-   - Proficiency in at least one of C++, Java, Python, or JavaScript
-2. **Version Control**
-   - Git
-3. **Web Development Basics**
-   - HTML, CSS, JavaScript
-   - Frontend Frameworks (React, Angular, Vue.js)
-   - Backend Frameworks (Node.js, Django, Flask, Spring Boot)
-4. **Cloud Platforms**
-   - AWS, GCP, Azure
-5. **Containerization**
-   - Docker
-   - Kubernetes
-6. **CI/CD Pipelines**
-
-### Soft Skills:
-1. **Problem-Solving and Analytical Thinking**
-2. **Communication Skills**
-3. **Team Collaboration**
-
 These topics cover a broad spectrum of what is typically required to excel in MAANG interviews. Focus on understanding the concepts deeply and practicing a lot of coding problems on platforms like LeetCode, HackerRank, and CodeSignal. Additionally, working on real-world projects and participating in system design discussions will enhance your practical understanding.
