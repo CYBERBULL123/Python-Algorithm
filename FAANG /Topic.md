@@ -1,165 +1,97 @@
-# MAANG Skills 🥸
+# MAANG (FAANG) Skills 🥸
 
-To crack MAANG (Meta, Apple, Amazon, Netflix, Google) interviews, you'll need to master a comprehensive set of topics in Data Structures and Algorithms (DSA) as well as key development concepts. Here's a detailed list:
+Cracking the interviews at **MAANG** (Meta, Apple, Amazon, Netflix, Google) requires a deep understanding of various technical domains, including Data Structures & Algorithms (DSA), System Design, and Development Technologies. Below is an exhaustive list, categorized for better clarity, with modern technologies and techniques that are commonly used in FAANG environments.
 
-### Data Structures:
-1. **Arrays**
-2. **Linked Lists**
-   - Singly Linked List
-   - Doubly Linked List
-   - Circular Linked List
-3. **Stacks**
-4. **Queues**
-   - Simple Queue
-   - Circular Queue
-   - Priority Queue
-   - Deque
-5. **Hashing**
-   - Hash Tables
-   - Hash Maps
-6. **Trees**
-   - Binary Trees
-   - Binary Search Trees (BST)
-   - AVL Trees
-   - Red-Black Trees
-   - Segment Trees
-   - Fenwick Tree (Binary Indexed Tree)
-   - B-Trees
-   - Tries
-7. **Graphs**
-   - Representation (Adjacency List, Adjacency Matrix)
-   - Graph Traversal (DFS, BFS)
-   - Shortest Path Algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall)
-   - Minimum Spanning Tree (Kruskal, Prim)
-   - Topological Sorting
-   - Strongly Connected Components (Kosaraju’s, Tarjan’s Algorithm)
-8. **Heaps**
-   - Min Heap
-   - Max Heap
-   - Priority Queue
-9. **Union-Find (Disjoint Set)**
-10. **Strings**
-    - Pattern Matching (KMP, Rabin-Karp, Z Algorithm)
-    - Trie
-    - Suffix Tree/Array
+---
 
+### 1. **Data Structures** 📚
+| **Data Structure**          | **Key Concepts**                                                   | **Examples**                                                                 |
+|-----------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Arrays**                  | Contiguous memory, indexing, traversing, multidimensional arrays   | Sorting, Searching, Subarray problems                                       |
+| **Linked Lists**            | Dynamic memory, nodes, traversal                                   | Singly, Doubly, Circular linked lists                                      |
+| **Stacks**                  | LIFO (Last In First Out)                                           | Undo operations, Expression evaluation                                     |
+| **Queues**                  | FIFO (First In First Out)                                          | Breadth-First Search (BFS), Task Scheduling                                 |
+| **Hashing**                 | Hash Maps, Collision Handling                                      | Caching, Dictionary Implementation                                         |
+| **Trees**                   | Hierarchical Structure, Recursion                                  | BST, AVL, Segment Tree, Trie, Red-Black Tree, B-Trees                      |
+| **Graphs**                  | Nodes & Edges, Traversal Techniques (DFS, BFS)                     | Social Networks, Search Algorithms (Dijkstra, Floyd-Warshall)               |
+| **Heaps**                   | Priority Queue (Min/Max Heaps)                                     | Task Scheduling, Huffman Coding                                            |
+| **Union-Find**              | Disjoint Set, Path Compression                                     | Connected Components, Kruskal’s Algorithm                                   |
+| **Strings**                 | Substring Search, Pattern Matching                                 | KMP, Rabin-Karp, Trie, Suffix Array                                        |
 
-### Algorithms:
-1. **Sorting Algorithms**
-   - Bubble Sort
-   - Selection Sort
-   - Insertion Sort
-   - Merge Sort
-   - Quick Sort
-   - Heap Sort
-   - Counting Sort
-   - Radix Sort
-   - Bucket Sort
-2. **Searching Algorithms**
-   - Linear Search
-   - Binary Search
-   - Ternary Search
-3. **Dynamic Programming**
-   - Knapsack Problem
-   - Longest Common Subsequence
-   - Longest Increasing Subsequence
-   - Matrix Chain Multiplication
-   - Coin Change Problem
-   - Edit Distance
-   - Maximum Subarray (Kadane’s Algorithm)
-4. **Greedy Algorithms**
-   - Activity Selection Problem
-   - Fractional Knapsack Problem
-   - Huffman Coding
-5. **Backtracking**
-   - N-Queens Problem
-   - Rat in a Maze
-   - Sudoku Solver
-6. **Divide and Conquer**
-   - Merge Sort
-   - Quick Sort
-   - Binary Search
-7. **Bit Manipulation**
-   - Basic Bit Operations
-   - Bit Masks
-   - Power of Two
-   - Counting Bits
-8. **Graph Algorithms**
-   - Depth First Search (DFS)
-   - Breadth First Search (BFS)
-   - Dijkstra’s Algorithm
-   - Bellman-Ford Algorithm
-   - Floyd-Warshall Algorithm
-   - Kruskal’s Algorithm
-   - Prim’s Algorithm
-   - Topological Sort
-   - Tarjan’s and Kosaraju’s Algorithm for SCC
+---
 
-### System Design:
-1. **Scalability and Load Balancing**
-2. **Caching**
-   - Cache Invalidation
-   - Cache Replacement Policies (LRU, LFU)
-3. **Databases**
-   - SQL vs NoSQL
-   - Database Indexing
-   - ACID Properties
-   - CAP Theorem
-4. **Microservices Architecture**
-5. **API Design**
-   - RESTful APIs
-   - GraphQL
-6. **Design Patterns**
-   - Singleton
-   - Factory
-   - Observer
-   - Strategy
-   - Decorator
-   - Adapter
-7. **Concurrency**
-   - Multithreading
-   - Thread Safety
-   - Locks
-   - Semaphores
-   - Deadlocks
-8. **Message Queues**
-   - Kafka
-   - RabbitMQ
-   - ActiveMQ
-9. **Distributed Systems**
-   - Consistent Hashing
-   - Leader Election
-   - Distributed Caching
-   - Data Partitioning and Sharding
-   - Replication and Consensus Algorithms (Paxos, Raft)
-10. **Design Case Studies**
-    - URL Shortener
-    - Distributed File Storage (Google Drive, Dropbox)
-    - Rate Limiter
-    - Search Engine
-    - Social Network Feed
-    - E-Commerce Website
-    - Ride-Sharing System (Uber, Lyft)
+### 2. **Algorithms** ⚙️
+| **Type**                    | **Techniques**                                                      | **Use Cases**                                                                |
+|-----------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Sorting**                 | Bubble, Merge, Quick, Heap, Radix, Counting                         | Data ordering, Efficient search and retrieval                                |
+| **Searching**               | Binary Search, Linear Search, Ternary Search                        | Finding elements in sorted or unsorted data                                  |
+| **Dynamic Programming**     | Optimal Substructure, Memoization, Tabulation                       | Knapsack, Longest Subsequence, Coin Change                                  |
+| **Greedy Algorithms**       | Local Optima, Activity Selection, Fractional Knapsack              | Resource allocation, Path optimization                                        |
+| **Backtracking**            | Recursion, Depth First Search (DFS)                                | N-Queens, Sudoku Solver, Rat in Maze                                        |
+| **Divide and Conquer**      | Divide, Conquer, Combine (Merge Sort, Quick Sort)                   | Sorting, Binary Search, Matrix Multiplication                               |
+| **Bit Manipulation**        | AND, OR, XOR, Shift Operations, Counting Bits                       | Power of Two checks, Set Operations, Fast Computation                        |
+| **Graph Algorithms**        | Shortest Path, Spanning Tree, Topological Sort                     | Network Routing, Graph Traversal, Connectivity                              |
 
-### Additional Development Skills:
-1. **Programming Languages**
-   - Proficiency in at least one of C++, Java, Python, or JavaScript
-2. **Version Control**
-   - Git
-3. **Web Development Basics**
-   - HTML, CSS, JavaScript
-   - Frontend Frameworks (React, Angular, Vue.js)
-   - Backend Frameworks (Node.js, Django, Flask, Spring Boot)
-4. **Cloud Platforms**
-   - AWS, GCP, Azure
-5. **Containerization**
-   - Docker
-   - Kubernetes
-6. **CI/CD Pipelines**
+---
 
-### Soft Skills:
-1. **Problem-Solving and Analytical Thinking**
-2. **Communication Skills**
-3. **Team Collaboration**
+### 3. **System Design** 🏗️
 
-These topics cover a broad spectrum of what is typically required to excel in MAANG interviews. Focus on understanding the concepts deeply and practicing a lot of coding problems on platforms like LeetCode, HackerRank, and CodeSignal. Additionally, working on real-world projects and participating in system design discussions will enhance your practical understanding.
+| **Component**               | **Key Concepts**                                                    | **Tools/Technologies**                                                      |
+|-----------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Scalability & Load Balancing** | Horizontal Scaling, Sharding, Replication, Auto-Scaling           | Kubernetes, Nginx, HAProxy, AWS ELB, GCP Load Balancer                      |
+| **Caching**                 | Cache Invalidation, Eviction Policies (LRU, LFU)                    | Redis, Memcached, Amazon ElastiCache                                        |
+| **Databases**               | SQL vs NoSQL, CAP Theorem, ACID, Transactions                        | MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB                             |
+| **Microservices Architecture** | Service-Oriented Design, API Gateway, Fault Tolerance             | Docker, Kubernetes, Spring Boot, Netflix OSS                                 |
+| **API Design**              | RESTful APIs, GraphQL, Authentication (OAuth, JWT)                  | Node.js, Express, FastAPI, GraphQL, AWS API Gateway                        |
+| **Concurrency**             | Multithreading, Deadlocks, Locks, Semaphores                        | Java concurrency, Python threading, JavaScript Async/Await, Redis Pub/Sub   |
+| **Message Queues**          | Message Brokers, Event Streaming                                     | Kafka, RabbitMQ, SQS                                                         |
+| **Distributed Systems**     | Consistency, Consensus, Sharding, CAP Theorem                        | Raft, Paxos, Consistent Hashing, AWS DynamoDB                               |
+| **Design Case Studies**     | URL Shortener, Rate Limiter, E-commerce Systems                    | Google Drive, Dropbox, Uber                                                 |
+
+---
+
+### 4. **Development Skills** 💻
+
+| **Technology**              | **Proficiency Areas**                                               | **Tools/Technologies**                                                      |
+|-----------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Programming Languages**   | Proficiency in at least one language (C++, Java, Python, JavaScript) | Python, C++, Java, JavaScript, Go                                            |
+| **Version Control**         | Git, Branching, Merging, Rebase                                     | GitHub, GitLab, Bitbucket                                                   |
+| **Web Development**         | HTML, CSS, JavaScript, Frameworks                                  | React.js, Angular, Vue.js, Node.js, Express, Flask, Django, Spring Boot    |
+| **Cloud Platforms**         | Serverless, Storage, Compute, Networking                           | AWS, GCP, Azure, Google Cloud Functions, Lambda                             |
+| **Containerization**        | Docker, Kubernetes                                                  | Docker, Kubernetes, OpenShift                                                |
+| **CI/CD Pipelines**         | Automated Testing, Continuous Integration, Deployment               | Jenkins, GitLab CI, CircleCI, Travis CI                                    |
+| **Container Orchestration** | Orchestration, Service Discovery, Scaling                           | Docker Swarm, Kubernetes, Istio                                             |
+| **Testing**                 | Unit Testing, Integration Testing, Performance Testing              | Jest, Mocha, JUnit, Selenium, Pytest                                        |
+
+---
+
+### 5. **Soft Skills** 🤝
+
+| **Skill**                   | **Description**                                                     |
+|-----------------------------|---------------------------------------------------------------------|
+| **Problem-Solving & Analytical Thinking** | Ability to break down complex problems into smaller, manageable parts |
+| **Communication Skills**     | Clarity in explaining thoughts, both technical and non-technical    |
+| **Team Collaboration**       | Working in teams with cross-functional collaboration               |
+| **Time Management**          | Prioritizing tasks, working under pressure                         |
+| **Leadership**               | Guiding and mentoring teams, decision-making                       |
+
+---
+
+### 6. **Modern Tech Stack for MAANG** 🚀
+
+| **Category**                | **Technologies**                                                      |
+|-----------------------------|-----------------------------------------------------------------------|
+| **Frontend Development**    | React.js, Angular, Vue.js, TailwindCSS, Next.js, Gatsby, Redux      |
+| **Backend Development**     | Node.js, Django, Flask, Spring Boot, FastAPI, Go, Java               |
+| **Database**                | PostgreSQL, MySQL, MongoDB, Cassandra, Elasticsearch, DynamoDB       |
+| **Cloud & Infrastructure**  | AWS (EC2, S3, Lambda), GCP (App Engine, BigQuery), Azure            |
+| **DevOps & CI/CD**          | Jenkins, CircleCI, Travis CI, GitLab CI, Kubernetes, Docker, Terraform |
+| **Security**                | OAuth, JWT, SSL/TLS, Penetration Testing, Kubernetes Security        |
+
+---
+
+### Final Notes:
+- **Practice**: Consistent problem-solving on platforms like **LeetCode**, **HackerRank**, and **CodeSignal**.
+- **System Design**: Work on real-world systems to build hands-on experience, design scalable systems, and improve architectural thinking.
+- **Technologies**: Stay up-to-date with the latest frameworks, tools, and technologies that are prevalent in FAANG companies.
+- **Communication**: Prepare to explain your thought process, code decisions, and designs clearly during interviews.
