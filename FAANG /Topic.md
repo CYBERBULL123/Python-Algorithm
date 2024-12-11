@@ -1,3 +1,5 @@
+# MAANG Skills 🥸
+
 To crack MAANG (Meta, Apple, Amazon, Netflix, Google) interviews, you'll need to master a comprehensive set of topics in Data Structures and Algorithms (DSA) as well as key development concepts. Here's a detailed list:
 
 ### Data Structures:
